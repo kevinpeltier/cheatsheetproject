@@ -1,0 +1,66 @@
+/* General */
+
+* {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-style: normal;
+    font-family: monospace;
+}
+
+/* Body */
+
+body {
+    background-color: cornsilk;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem;
+    font-weight: 900;
+}
+
+/* table  */
+
+h2 {
+    text-align: center;
+    margin: .5rem 0 1rem 0;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.container {
+    margin: 1rem 8rem;
+}
+
+table {
+    border: .125rem solid black;
+    box-shadow: 0 0 1rem black;
+}
+
+th {
+    padding: .75rem;
+    min-width: 13rem;
+}
+
+td {
+    padding: .25rem;
+   border-radius: 1rem; 
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+tr:nth-child(n + 2):hover {
+    background-color: grey;
+}
+
+/* table note */
+
+.noted p{
+    font-style: italic;
+    font-size: .8rem;
+}
